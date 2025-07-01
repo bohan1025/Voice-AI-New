@@ -1,5 +1,4 @@
 # Voice-AI-New
-<<<<<<< HEAD
 User inputs via voice → Converts to text → GPT extracts information (name, phone number, real estate information) → Searches for real estate → Voice feedback (specific information about real estate) → Cloud storage information
 
 
@@ -9,5 +8,3 @@ Technique：
 2.  Large Language model / GPT ai: Extract the key information from the generated text (Client name+Client phone number+property Address)
 3. SQlite / Python: Search through database on any matched dataset, and give reponse to the client about the full information of the property via message & email & Voice (pyttsx3)
 4. Updating all the client information on to the online database
-=======
->>>>>>> ab7ae0bb94800e32d8d59b8c5ecf2ca49d11761e
