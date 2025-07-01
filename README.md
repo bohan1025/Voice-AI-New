@@ -1,5 +1,4 @@
 # Voice-AI-New
-<<<<<<< HEAD
 User inputs via voice → Converts to text → GPT extracts information (name, phone number, real estate information) → Searches for real estate → Voice feedback (specific information about real estate) → Cloud storage information
 
 
