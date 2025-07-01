@@ -1,0 +1,5 @@
+2025.06.01
+1. 弄清楚逻辑 一步一步的需要做什么
+2. 写好所有的function之后在本地测试test audio看看是否能提取相关信息
+3. 创建Azure数据库（在创建的Resource group里面），测试上传
+4. 了解前后端的链接，看看是否可以streaming用户的input然后返回结果（实在不行的话核心就是gather information然后上传到Azure SQL然后返回客人的确认信息）
