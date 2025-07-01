@@ -13,7 +13,7 @@ Hi how can I help you?
 
 
 
-最好是前段后端分开
+Front End and BAck End Are can contribute seperate -> build connections
 
 Technique：
 0. Front end (Including the app, the button which user click to speak) 和客户的实时互动 -> 然后用API链接将客户讲的东西 语音转文本
@@ -28,12 +28,12 @@ Button website -> sending information to backend (flask) Azure docker container 
 Important library:
 pip install openai-whisper
 
-现在的问题在于 就是确定pipeline对不对 
-然后大概对于每一部分的理解
-是否需要前段和后端 因为要实现用户交互 （比如用户如何实现说话交互）+在交互的时候实时语音转文本 然后提取关键信息 + push data到数据库
-工程量太大了
+
+要实现用户交互 （比如用户如何实现说话交互）+在交互的时候实时语音转文本 然后提取关键信息 + push data到数据库
 
 
-需要注意的点：
+
+Conpare:
 cost
 performance（speed and latency）
+Memory Storage
