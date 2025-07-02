@@ -37,3 +37,23 @@ pip install openai-whisper
 需要注意的点：
 cost
 performance（speed and latency）
+
+
+
+前端 (index.html) 
+    ↓ (音频文件)
+后端 API (voice_bot_backend.py)
+    ↓
+1. 音频转文本 (Whisper)
+    ↓
+2. 信息提取 (OpenAI GPT-3.5)
+    ↓
+3. 房产信息查询 (SQLite)
+    ↓
+4. 生成回复文本
+    ↓
+5. 文本转语音 (pyttsx3)
+    ↓
+6. 保存到数据库
+    ↓
+返回结果给前端
